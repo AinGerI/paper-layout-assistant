@@ -1,0 +1,25 @@
+page_vertical_alignment: top
+global_text:
+  east_asia: 宋体
+  latin: Times New Roman
+  color_rgb: '000000'
+  underline: false
+  shadow: false
+  scaling_percent: 100
+keyword_label:
+  text: 关键词：
+  east_asia: 黑体
+  size_pt: 12
+  bold: true
+keyword_content:
+  east_asia: 宋体
+  latin: Times New Roman
+  size_pt: 12
+  bold: false
+math:
+  font: preserve native OMath font
+  size_pt: 12
+  display_tabs: center and right within text width; existing tabs only
+image_width: min(14 cm, available text width)
+blank_paragraphs: do not insert or delete
+inline_math_spacing: Word multiple 1.5 expands with tall native math; visually verify

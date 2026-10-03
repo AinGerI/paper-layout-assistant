@@ -1,0 +1,120 @@
+schema_version: 1
+name: "新格式配置"
+
+document:
+  repaginate: true
+
+page:
+  enabled: false
+  orientation: portrait
+  top_margin_cm: null
+  bottom_margin_cm: null
+  left_margin_cm: null
+  right_margin_cm: null
+  header_distance_cm: null
+  footer_distance_cm: null
+
+roles:
+  title:
+    enabled: false
+    font: {east_asia: null, latin: null, size_pt: null, bold: null}
+    paragraph: {alignment: null, line_spacing: null, space_before_pt: null, space_after_pt: null}
+
+  heading_1:
+    enabled: false
+    font: {east_asia: null, latin: null, size_pt: null, bold: null}
+    paragraph: {alignment: null, line_spacing: null, space_before_pt: null, space_after_pt: null, keep_with_next: true}
+
+  heading_2:
+    enabled: false
+    font: {east_asia: null, latin: null, size_pt: null, bold: null}
+    paragraph: {alignment: null, line_spacing: null, space_before_pt: null, space_after_pt: null, keep_with_next: true}
+
+  heading_3:
+    enabled: false
+    font: {east_asia: null, latin: null, size_pt: null, bold: null}
+    paragraph: {alignment: null, line_spacing: null, space_before_pt: null, space_after_pt: null, keep_with_next: true}
+
+  body:
+    enabled: false
+    font: {east_asia: null, latin: null, size_pt: null}
+    paragraph: {alignment: justify, line_spacing: null, space_before_pt: null, space_after_pt: null, first_line_indent_chars: null}
+
+  equation_block:
+    enabled: false
+    paragraph:
+      alignment: center
+      line_spacing: {rule: at_least, value: null}
+      space_before_pt: null
+      space_after_pt: null
+
+  figure_paragraph:
+    enabled: false
+    paragraph: {alignment: center, space_before_pt: null, space_after_pt: null}
+
+  figure_caption:
+    enabled: false
+    font: {east_asia: null, latin: null, size_pt: null}
+    paragraph: {alignment: center, line_spacing: null, space_before_pt: null, space_after_pt: null, keep_with_next: false}
+
+  table_caption:
+    enabled: false
+    font: {east_asia: null, latin: null, size_pt: null}
+    paragraph: {alignment: center, line_spacing: null, space_before_pt: null, space_after_pt: null, keep_with_next: true}
+
+  abstract_heading:
+    enabled: false
+  keywords:
+    enabled: false
+  references_heading:
+    enabled: false
+
+table:
+  enabled: false
+  alignment: center
+  autofit: null
+  preferred_width_cm: null
+  font: {east_asia: null, latin: null, size_pt: null}
+  paragraph:
+    alignment: center
+    line_spacing: single
+    space_before_pt: 0
+    space_after_pt: 0
+    first_line_indent_chars: 0
+  cell:
+    vertical_alignment: center
+    margin_top_pt: null
+    margin_bottom_pt: null
+    margin_left_pt: null
+    margin_right_pt: null
+  row:
+    allow_break_across_pages: false
+    repeat_header: false
+    height_rule: auto
+    height_pt: null
+  border:
+    type: retain   # retain | none | three_line | full_grid
+    top_pt: 1.5
+    header_bottom_pt: 0.75
+    bottom_pt: 1.5
+
+figure:
+  enabled: false
+  paragraph_alignment: center
+  max_width_cm: null
+  width_cm: null
+  lock_aspect_ratio: true
+  resize_floating_shapes: false
+
+detection:
+  title_scan_paragraphs: 5
+  title_max_chars: 80
+  title_min_pt: 15
+  figure_caption_patterns:
+    - '^\s*图\s*\d+'
+    - '^\s*Fig(?:ure)?\.?\s*\d+'
+  table_caption_patterns:
+    - '^\s*表\s*\d+'
+    - '^\s*Table\s*\d+'
+  paragraph_overrides: {}
+  regex_overrides: []

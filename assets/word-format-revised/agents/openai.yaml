@@ -1,0 +1,6 @@
+interface:
+  display_name: "Word 学术排版"
+  short_description: "使用桌面 Word 按独立 Profile 排版论文副本并检查内容完整性"
+  default_prompt: "使用 $word-format 按我的格式要求排版 Word 副本，保留正文、表格及原生公式，并生成检查报告。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,296 @@
+schema_version: 1
+name: reference-paper 实际版式参考（非官方规范声明）
+source_template: C:\paper-workspace\01 模板库\华为杯\01 模板与参考论文\reference-paper.docx
+extraction_notes:
+- 从代表性段落实际格式提取；不以 Normal 样式替代正文取样。
+- 封面、学校/队员信息、目录与页码不复制。
+- 公式保留原生 OMath；参考文件多数公式为 MathType/OLE，不能照搬对象类型。公式采用已有安全最小行距并沿用中心/右制表位。
+- 表格格式按正文第3张参数表取样（其他宽表有不同字号与行距）。
+- 图片保持原尺寸，超出新正文宽度时才缩小。
+page:
+  enabled: true
+  orientation: portrait
+  paper_width_cm: 21.000860680474176
+  paper_height_cm: 29.700361972384982
+  top_margin_cm: 3.002138835059272
+  bottom_margin_cm: 1.7515417204962835
+  left_margin_cm: 2.250722195307414
+  right_margin_cm: 2.247194471359253
+  gutter_cm: 0.0
+  header_distance_cm: 1.501069417529636
+  footer_distance_cm: 1.749777723948161
+roles:
+  title:
+    paragraph:
+      alignment: left
+      space_before_pt: 0.0
+      space_after_pt: 0.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: false
+      page_break_before: false
+      line_spacing: '1.5'
+    font:
+      east_asia: 黑体
+      latin: 黑体
+      size_pt: 16.0
+      bold: false
+      italic: false
+      underline: true
+  abstract_heading:
+    paragraph:
+      alignment: center
+      space_before_pt: 0.0
+      space_after_pt: 0.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: false
+      page_break_before: false
+      line_spacing: '1.5'
+    font:
+      east_asia: 隶书
+      latin: 宋体
+      size_pt: 18.0
+      bold: false
+      italic: false
+      underline: false
+  keywords:
+    paragraph:
+      alignment: justify
+      space_before_pt: 0.0
+      space_after_pt: 0.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: false
+      page_break_before: false
+      line_spacing: '1.5'
+    font:
+      east_asia: 宋体
+      latin: 宋体
+      size_pt: 12.0
+      bold: true
+      italic: false
+      underline: false
+  heading_1:
+    paragraph:
+      alignment: center
+      space_before_pt: 17.0
+      space_after_pt: 16.5
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: true
+      keep_together: true
+      widow_control: false
+      page_break_before: false
+      line_spacing:
+        rule: multiple
+        value: 2.4083333015441895
+    font:
+      east_asia: 黑体
+      latin: Times New Roman
+      size_pt: 14.0
+      bold: false
+      italic: false
+      underline: false
+  heading_2:
+    paragraph:
+      alignment: justify
+      space_before_pt: 6.0
+      space_after_pt: 6.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: true
+      keep_together: true
+      widow_control: false
+      page_break_before: false
+      line_spacing: single
+    font:
+      east_asia: 宋体
+      latin: Times New Roman
+      size_pt: 12.0
+      bold: true
+      italic: false
+      underline: false
+  heading_3:
+    paragraph:
+      alignment: left
+      space_before_pt: 6.0
+      space_after_pt: 6.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: true
+      page_break_before: false
+      line_spacing: single
+    font:
+      east_asia: 宋体
+      latin: Times New Roman
+      size_pt: 12.0
+      bold: true
+      italic: false
+      underline: false
+  body:
+    paragraph:
+      alignment: justify
+      space_before_pt: 0.0
+      space_after_pt: 0.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 2.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: true
+      page_break_before: false
+      line_spacing: single
+    font:
+      east_asia: 宋体
+      latin: Times New Roman
+      size_pt: 12.0
+      bold: false
+      italic: false
+      underline: false
+  figure_caption:
+    paragraph:
+      alignment: center
+      space_before_pt: 6.0
+      space_after_pt: 6.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: true
+      page_break_before: false
+      line_spacing: single
+    font:
+      east_asia: 宋体
+      latin: Times New Roman
+      size_pt: 12.0
+      bold: false
+      italic: false
+      underline: false
+  table_caption:
+    paragraph:
+      alignment: center
+      space_before_pt: 6.0
+      space_after_pt: 6.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: true
+      page_break_before: false
+      line_spacing: single
+    font:
+      east_asia: 宋体
+      latin: Times New Roman
+      size_pt: 12.0
+      bold: false
+      italic: false
+      underline: false
+  figure_paragraph:
+    paragraph:
+      alignment: center
+      space_before_pt: 6.0
+      space_after_pt: 6.0
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: false
+      keep_together: false
+      widow_control: true
+      page_break_before: false
+      line_spacing: single
+  equation_block:
+    paragraph:
+      alignment: center
+      space_before_pt: 6
+      space_after_pt: 6
+      line_spacing:
+        rule: at_least
+        value: 18
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+  references_heading:
+    paragraph:
+      alignment: center
+      space_before_pt: 17.0
+      space_after_pt: 16.5
+      left_indent_pt: 0.0
+      right_indent_pt: 0.0
+      first_line_indent_chars: 0.0
+      keep_with_next: true
+      keep_together: true
+      widow_control: false
+      page_break_before: false
+      line_spacing:
+        rule: multiple
+        value: 2.4083333015441895
+    font:
+      east_asia: 黑体
+      latin: Times New Roman
+      size_pt: 14.0
+      bold: false
+      italic: false
+      underline: false
+table:
+  enabled: true
+  alignment: center
+  font:
+    east_asia: 宋体
+    latin: Times New Roman
+    size_pt: 10.0
+    bold: false
+    italic: false
+    underline: false
+  paragraph:
+    alignment: center
+    space_before_pt: 0.0
+    space_after_pt: 0.0
+    left_indent_pt: 0.0
+    right_indent_pt: 0.0
+    first_line_indent_chars: 0.0
+    keep_with_next: false
+    keep_together: false
+    widow_control: false
+    page_break_before: false
+    line_spacing:
+      rule: exact
+      value: 18.0
+  cell:
+    vertical_alignment: top
+    margin_top_pt: 0.0
+    margin_bottom_pt: 0.0
+    margin_left_pt: 5.400000095367432
+    margin_right_pt: 5.400000095367432
+  border:
+    type: three_line
+    top_pt: 1.5
+    bottom_pt: 1.5
+    header_bottom_pt: 0.75
+figure:
+  enabled: true
+  paragraph_alignment: center
+  max_width_cm: 16.502944013807507
+  lock_aspect_ratio: true
+  resize_floating_shapes: false
+detection:
+  regex_overrides:
+  - pattern: ^本测试的行内公式
+    role: body
+

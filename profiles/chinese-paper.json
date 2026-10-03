@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "name": "中文论文默认格式（可按学校或比赛要求修改）",
+  "page": {
+    "width_cm": 21,
+    "height_cm": 29.7,
+    "top_cm": 2.54,
+    "bottom_cm": 2.54,
+    "left_cm": 2.54,
+    "right_cm": 2.54
+  },
+  "fonts": {
+    "east_asia": "宋体",
+    "latin": "Times New Roman"
+  },
+  "roles": {
+    "title": {
+      "east_asia": "黑体",
+      "size_pt": 18,
+      "bold": true,
+      "alignment": "center",
+      "line_spacing": 1.5,
+      "before_pt": 0,
+      "after_pt": 12,
+      "first_line_chars": 0
+    },
+    "heading_1": {
+      "east_asia": "黑体",
+      "size_pt": 14,
+      "bold": true,
+      "alignment": "center",
+      "line_spacing": 1.5,
+      "before_pt": 12,
+      "after_pt": 6,
+      "first_line_chars": 0
+    },
+    "heading_2": {
+      "east_asia": "黑体",
+      "size_pt": 12,
+      "bold": true,
+      "alignment": "left",
+      "line_spacing": 1.5,
+      "before_pt": 6,
+      "after_pt": 6,
+      "first_line_chars": 0
+    },
+    "heading_3": {
+      "east_asia": "宋体",
+      "size_pt": 12,
+      "bold": true,
+      "alignment": "left",
+      "line_spacing": 1.5,
+      "before_pt": 6,
+      "after_pt": 6,
+      "first_line_chars": 0
+    },
+    "body": {
+      "size_pt": 12,
+      "bold": false,
+      "alignment": "justify",
+      "line_spacing": 1.5,
+      "before_pt": 0,
+      "after_pt": 0,
+      "first_line_chars": 2
+    },
+    "caption": {
+      "alignment": "center",
+      "line_spacing": 1.5,
+      "before_pt": 6,
+      "after_pt": 6,
+      "first_line_chars": 0
+    },
+    "equation": {
+      "alignment": "left",
+      "line_spacing": 1.5,
+      "before_pt": 6,
+      "after_pt": 6,
+      "first_line_chars": 0
+    },
+    "table": {
+      "size_pt": 10.5,
+      "alignment": "left",
+      "line_spacing": 1,
+      "before_pt": 0,
+      "after_pt": 0,
+      "first_line_chars": 0
+    },
+    "references": {
+      "size_pt": 12,
+      "alignment": "left",
+      "line_spacing": 1.5,
+      "before_pt": 0,
+      "after_pt": 0,
+      "first_line_chars": 0
+    },
+    "front_heading": {
+      "east_asia": "黑体",
+      "size_pt": 14,
+      "bold": true,
+      "alignment": "center",
+      "line_spacing": 1.5,
+      "before_pt": 12,
+      "after_pt": 6,
+      "first_line_chars": 0
+    },
+    "keywords": {
+      "alignment": "left",
+      "first_line_chars": 0
+    }
+  },
+  "figure": {
+    "max_width_cm": 15.5,
+    "max_height_cm": 18
+  },
+  "table": {
+    "border": "three_line",
+    "header_repeat": true,
+    "allow_row_split": false
+  },
+  "equations": {
+    "disable_grid": true,
+    "single_omega_tilde_compat": true
+  }
+}

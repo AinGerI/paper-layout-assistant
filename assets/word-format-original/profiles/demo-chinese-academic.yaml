@@ -1,0 +1,58 @@
+schema_version: 1
+name: "中文学术文档演示配置（仅示例，不代表任何比赛/期刊标准）"
+document: {repaginate: true}
+page:
+  enabled: true
+  orientation: portrait
+  top_margin_cm: 2.54
+  bottom_margin_cm: 2.54
+  left_margin_cm: 3.0
+  right_margin_cm: 2.5
+roles:
+  title:
+    enabled: true
+    font: {east_asia: 黑体, latin: Times New Roman, size_pt: 18, bold: true}
+    paragraph: {alignment: center, line_spacing: single, space_before_pt: 0, space_after_pt: 12}
+  heading_1:
+    enabled: true
+    font: {east_asia: 黑体, latin: Times New Roman, size_pt: 14, bold: true}
+    paragraph: {alignment: left, line_spacing: 1.5, space_before_pt: 12, space_after_pt: 6, keep_with_next: true}
+  heading_2:
+    enabled: true
+    font: {east_asia: 黑体, latin: Times New Roman, size_pt: 12, bold: true}
+    paragraph: {alignment: left, line_spacing: 1.5, space_before_pt: 6, space_after_pt: 3, keep_with_next: true}
+  body:
+    enabled: true
+    font: {east_asia: 宋体, latin: Times New Roman, size_pt: 12}
+    paragraph: {alignment: justify, line_spacing: 1.5, space_before_pt: 0, space_after_pt: 0, first_line_indent_chars: 2}
+  equation_block:
+    enabled: true
+    paragraph: {alignment: center, line_spacing: {rule: at_least, value: 18}, space_before_pt: 3, space_after_pt: 3}
+  figure_paragraph:
+    enabled: true
+    paragraph: {alignment: center, space_before_pt: 3, space_after_pt: 3}
+  figure_caption:
+    enabled: true
+    font: {east_asia: 宋体, latin: Times New Roman, size_pt: 10.5}
+    paragraph: {alignment: center, line_spacing: single, space_before_pt: 3, space_after_pt: 6}
+  table_caption:
+    enabled: true
+    font: {east_asia: 宋体, latin: Times New Roman, size_pt: 10.5}
+    paragraph: {alignment: center, line_spacing: single, space_before_pt: 6, space_after_pt: 3, keep_with_next: true}
+table:
+  enabled: true
+  alignment: center
+  font: {east_asia: 宋体, latin: Times New Roman, size_pt: 10.5}
+  paragraph: {alignment: center, line_spacing: single, space_before_pt: 0, space_after_pt: 0, first_line_indent_chars: 0}
+  cell: {vertical_alignment: center, margin_top_pt: 2, margin_bottom_pt: 2}
+  row: {allow_break_across_pages: false, repeat_header: true, height_rule: auto}
+  border: {type: three_line, top_pt: 1.5, header_bottom_pt: 0.75, bottom_pt: 1.5}
+figure:
+  enabled: true
+  paragraph_alignment: center
+  max_width_cm: 14
+  lock_aspect_ratio: true
+  resize_floating_shapes: false
+detection:
+  paragraph_overrides: {}
+  regex_overrides: []

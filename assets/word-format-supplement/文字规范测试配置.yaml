@@ -1,0 +1,159 @@
+schema_version: 1
+name: Word 学术论文自动排版测试规范（非正式标准）
+source_requirements: 本聊天用户提供的第1至12节；图片末句不完整，不推断。补充规则见同目录 supplemental.yaml。
+page:
+  enabled: true
+  orientation: portrait
+  paper_width_cm: 21
+  paper_height_cm: 29.7
+  top_margin_cm: 2.54
+  bottom_margin_cm: 2.54
+  left_margin_cm: 2.8
+  right_margin_cm: 2.8
+  gutter_cm: 0
+roles:
+  title:
+    font:
+      east_asia: 黑体
+      latin: Times New Roman
+      size_pt: 18
+      bold: true
+      underline: false
+    paragraph:
+      alignment: center
+      space_before_pt: 0
+      space_after_pt: 18
+      line_spacing: single
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+      keep_with_next: true
+  heading_1:
+    font:
+      east_asia: 黑体
+      latin: Times New Roman
+      size_pt: 16
+      bold: true
+      underline: false
+    paragraph:
+      alignment: left
+      space_before_pt: 18
+      space_after_pt: 12
+      line_spacing: 1.5
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+      keep_with_next: true
+      keep_together: true
+  heading_2:
+    font:
+      east_asia: 黑体
+      latin: Times New Roman
+      size_pt: 14
+      bold: true
+      underline: false
+    paragraph:
+      alignment: left
+      space_before_pt: 12
+      space_after_pt: 6
+      line_spacing: 1.5
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+      keep_with_next: true
+  heading_3:
+    font:
+      east_asia: 黑体
+      latin: Times New Roman
+      size_pt: 12
+      bold: true
+      underline: false
+    paragraph:
+      alignment: left
+      space_before_pt: 6
+      space_after_pt: 3
+      line_spacing: 1.5
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+      keep_with_next: true
+  body:
+    font:
+      east_asia: 宋体
+      latin: Times New Roman
+      size_pt: 12
+      bold: false
+      underline: false
+    paragraph:
+      alignment: justify
+      space_before_pt: 0
+      space_after_pt: 0
+      line_spacing: 1.5
+      first_line_indent_chars: 2
+      left_indent_pt: 0
+      right_indent_pt: 0
+      widow_control: true
+  abstract_heading:
+    font:
+      east_asia: 黑体
+      latin: Times New Roman
+      size_pt: 14
+      bold: true
+      underline: false
+    paragraph:
+      alignment: center
+      space_before_pt: 12
+      space_after_pt: 6
+      line_spacing: single
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+  keywords:
+    font:
+      east_asia: 宋体
+      latin: Times New Roman
+      size_pt: 12
+      bold: false
+      underline: false
+    paragraph:
+      alignment: left
+      space_before_pt: 6
+      space_after_pt: 12
+      line_spacing: 1.5
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+  equation_block:
+    paragraph:
+      alignment: center
+      space_before_pt: 6
+      space_after_pt: 6
+      line_spacing:
+        rule: at_least
+        value: 18
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+  figure_paragraph:
+    paragraph:
+      alignment: center
+      space_before_pt: 6
+      space_after_pt: 0
+      line_spacing: single
+      first_line_indent_chars: 0
+      left_indent_pt: 0
+      right_indent_pt: 0
+table:
+  enabled: false
+figure:
+  enabled: true
+  paragraph_alignment: center
+  max_width_cm: 14
+  lock_aspect_ratio: true
+  resize_floating_shapes: false
+detection:
+  regex_overrides:
+  - pattern: ^本测试的行内公式
+    role: body
+  - pattern: ^\s*（[12]）$
+    role: equation_block

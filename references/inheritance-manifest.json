@@ -1,0 +1,212 @@
+[
+  {
+    "source": "paper-word-delivery/SKILL.md",
+    "packaged": "references/original-paper-word-delivery/SOURCE_SKILL.md",
+    "byte_equal": true
+  },
+  {
+    "source": "paper-word-delivery/references/equations.md",
+    "packaged": "references/original-paper-word-delivery/references/equations.md",
+    "byte_equal": true
+  },
+  {
+    "source": "paper-word-delivery/references/code-and-numbering.md",
+    "packaged": "references/original-paper-word-delivery/references/code-and-numbering.md",
+    "byte_equal": true
+  },
+  {
+    "source": "paper-word-delivery/references/format-and-verification.md",
+    "packaged": "references/original-paper-word-delivery/references/format-and-verification.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/requirements.txt",
+    "packaged": "assets/word-format-original/requirements.txt",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/README_涓枃.md",
+    "packaged": "assets/word-format-original/README_涓枃.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/SKILL.md",
+    "packaged": "assets/word-format-original/SOURCE_SKILL.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/references/profile-guide.md",
+    "packaged": "assets/word-format-original/references/profile-guide.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/scripts/extract_profile.py",
+    "packaged": "assets/word-format-original/scripts/extract_profile.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/scripts/inspect_word.py",
+    "packaged": "assets/word-format-original/scripts/inspect_word.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/scripts/format_word.py",
+    "packaged": "assets/word-format-original/scripts/format_word.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/scripts/validate_word.py",
+    "packaged": "assets/word-format-original/scripts/validate_word.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/scripts/word_common.py",
+    "packaged": "assets/word-format-original/scripts/word_common.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/profiles/demo-chinese-academic.yaml",
+    "packaged": "assets/word-format-original/profiles/demo-chinese-academic.yaml",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/01 原始解压包/profiles/profile-template.yaml",
+    "packaged": "assets/word-format-original/profiles/profile-template.yaml",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/README_中文.md",
+    "packaged": "assets/word-format-revised/README_中文.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/requirements.txt",
+    "packaged": "assets/word-format-revised/requirements.txt",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/SKILL.md",
+    "packaged": "assets/word-format-revised/SOURCE_SKILL.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/references/profile-guide.md",
+    "packaged": "assets/word-format-revised/references/profile-guide.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/references/local-workspace.md",
+    "packaged": "assets/word-format-revised/references/local-workspace.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/references/profile-sources.md",
+    "packaged": "assets/word-format-revised/references/profile-sources.md",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/agents/openai.yaml",
+    "packaged": "assets/word-format-revised/agents/openai.yaml",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/smoke_test.py",
+    "packaged": "assets/word-format-revised/scripts/smoke_test.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/profile_schema.py",
+    "packaged": "assets/word-format-revised/scripts/profile_schema.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/word_constants.py",
+    "packaged": "assets/word-format-revised/scripts/word_constants.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/extract_profile.py",
+    "packaged": "assets/word-format-revised/scripts/extract_profile.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/inspect_word.py",
+    "packaged": "assets/word-format-revised/scripts/inspect_word.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/check_profile.py",
+    "packaged": "assets/word-format-revised/scripts/check_profile.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/format_word.py",
+    "packaged": "assets/word-format-revised/scripts/format_word.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/validate_word.py",
+    "packaged": "assets/word-format-revised/scripts/validate_word.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/scripts/word_common.py",
+    "packaged": "assets/word-format-revised/scripts/word_common.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/profiles/demo-chinese-academic.yaml",
+    "packaged": "assets/word-format-revised/profiles/demo-chinese-academic.yaml",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/02 修订版源码/profiles/profile-template.yaml",
+    "packaged": "assets/word-format-revised/profiles/profile-template.yaml",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/04 补充排版实现参考/audit_reference.py",
+    "packaged": "assets/word-format-supplement/audit_reference.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/04 补充排版实现参考/文字规范测试配置.yaml",
+    "packaged": "assets/word-format-supplement/文字规范测试配置.yaml",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/04 补充排版实现参考/run_reference_test.py",
+    "packaged": "assets/word-format-supplement/run_reference_test.py",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/04 补充排版实现参考/文字规范补充配置.yaml",
+    "packaged": "assets/word-format-supplement/文字规范补充配置.yaml",
+    "byte_equal": true
+  },
+  {
+    "source": "90 维护备份/04 补充排版实现参考/run_spec_test.py",
+    "packaged": "assets/word-format-supplement/run_spec_test.py",
+    "byte_equal": true
+  },
+  {
+    "source": "使用说明.md",
+    "packaged": "references/original-template-library/使用说明.md",
+    "byte_equal": true
+  },
+  {
+    "source": "01 模板库/模板库说明.md",
+    "packaged": "references/original-template-library/01 模板库/模板库说明.md",
+    "byte_equal": true
+  },
+  {
+    "source": "01 模板库/华为杯/使用说明.md",
+    "packaged": "references/original-template-library/01 模板库/华为杯/使用说明.md",
+    "byte_equal": true
+  },
+  {
+    "source": "01 模板库/华为杯/03 排版配置/参考论文版式.yaml",
+    "packaged": "references/original-template-library/01 模板库/华为杯/03 排版配置/参考论文版式.yaml",
+    "byte_equal": true
+  }
+]
